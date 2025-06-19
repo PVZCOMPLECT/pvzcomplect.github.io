@@ -4,128 +4,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ПВЗКОМПЛЕКТ — Готовые комплекты оборудования для открытия пунктов выдачи Wildberries и Ozon. Доставка по РФ. Техподдержка. Видеоинструкция.">
   <title>ПВЗКОМПЛЕКТ — Комплекты для ПВЗ</title>
   <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      color: #333;
-      background: #fff;
-    }
-    header {
-      background: linear-gradient(90deg, #82368A, #E50E78);
-      color: white;
-      padding: 60px 20px 40px;
-      text-align: center;
-    }
-    h1 {
-      font-size: 36px;
-      margin: 10px 0 20px;
-    }
-    .button {
-      background: white;
-      color: #E50E78;
-      padding: 14px 28px;
-      border: none;
-      border-radius: 6px;
-      font-weight: bold;
-      font-size: 16px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-    .button:hover {
-      background: #fce4ec;
-    }
-    section {
-      padding: 60px 20px;
-    }
-    .features, .contacts {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 30px;
-      justify-content: center;
-    }
-    .feature, .contact-block {
-      max-width: 300px;
-      text-align: center;
-      background: #fafafa;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #f5f5f5;
-      text-align: center;
-      padding: 30px 20px;
-      font-size: 14px;
-      color: #888;
-    }
-    .highlight {
-      color: #E50E78;
-      font-weight: bold;
-    }
-    .logo {
-      max-width: 120px;
-      margin-bottom: 20px;
-    }
-    .section-title {
-      text-align: center;
-      font-size: 28px;
-      margin-bottom: 40px;
-      color: #82368A;
-    }
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #fff; color: #333; }
+    header { background: linear-gradient(90deg, #82368A, #E50E78); color: white; padding: 60px 20px; text-align: center; }
+    h1 { font-size: 36px; margin: 10px 0 20px; }
+    .button { background: white; color: #E50E78; padding: 14px 28px; border: none; border-radius: 6px; font-weight: bold; font-size: 16px; cursor: pointer; transition: all 0.3s ease; }
+    .button:hover { background: #fce4ec; }
+    section { padding: 60px 20px; }
+    .section-title { text-align: center; font-size: 28px; margin-bottom: 40px; color: #82368A; }
+    .features, .contacts { display: flex; flex-wrap: wrap; gap: 30px; justify-content: center; }
+    .feature, .contact-block { max-width: 300px; text-align: center; background: #fafafa; padding: 20px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .highlight { color: #E50E78; font-weight: bold; }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+    .gallery img { max-width: 300px; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    form { max-width: 400px; margin: 0 auto; display: flex; flex-direction: column; gap: 15px; }
+    input, textarea { padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 8px; }
+    footer { background: #f5f5f5; text-align: center; padding: 30px 20px; font-size: 14px; color: #888; margin-top: 40px; }
   </style>
 </head>
 <body>
   <header>
-    <img src="АВА_белый.jpg" alt="ПВЗКОМПЛЕКТ логотип" class="logo">
+    <img src="АВА_белый.jpg" alt="ПВЗКОМПЛЕКТ логотип" style="max-width: 140px; margin-bottom: 20px;">
     <h1>Готовые комплекты для открытия ПВЗ</h1>
     <p>Wildberries / Ozon / Яндекс Маркет</p>
     <button class="button" onclick="window.location.href='https://t.me/pvzcomplect'">Написать в Telegram</button>
   </header>
 
   <section>
-    <h2 class="section-title">Что входит в комплект</h2>
+    <h2 class="section-title">💸 Стоимость комплекта: <span class="highlight">от 37 500 ₽</span></h2>
+  </section>
+
+  <section>
+    <h2 class="section-title">📸 Реальные фото комплекта</h2>
+    <div class="gallery">
+      <img src="j1.JPG" alt="">
+      <img src="j2.jpg" alt="">
+      <img src="j3.JPG" alt="">
+      <img src="j4.JPG" alt="">
+      <img src="j5.JPG" alt="">
+      <img src="j6.JPG" alt="">
+      <img src="j7.JPG" alt="">
+      <img src="j8.JPG" alt="">
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">🛒 Как заказать</h2>
     <div class="features">
-      <div class="feature">Моноблок i5, 8ГБ / SSD 256ГБ</div>
-      <div class="feature">3 IP-камеры FullHD с PoE-коммутатором</div>
-      <div class="feature">Сканер штрихкодов (QR поддержка)</div>
-      <div class="feature">Видеоинструкция по подключению</div>
-      <div class="feature">Удаленная поддержка и помощь</div>
+      <div class="feature">1. Напишите в Telegram или WhatsApp</div>
+      <div class="feature">2. Уточните город и доставку</div>
+      <div class="feature">3. Мы отправим в течение 1–2 дней</div>
     </div>
   </section>
 
   <section style="background:#fdf0f5">
-    <h2 class="section-title">Почему выбирают нас</h2>
-    <div class="features">
-      <div class="feature">✅ Самостоятельная установка</div>
-      <div class="feature">✅ Всё протестировано</div>
-      <div class="feature">✅ Отправка по всей РФ</div>
-      <div class="feature">✅ Без лишних услуг и навязанных монтажей</div>
-    </div>
+    <h2 class="section-title">📬 Оставить заявку</h2>
+    <form action="https://formsubmit.io/send/pvzcomplect@gmail.com" method="POST">
+      <input type="text" name="Имя" placeholder="Ваше имя" required>
+      <input type="tel" name="Телефон" placeholder="Телефон для связи" required>
+      <textarea name="Комментарий" placeholder="Комментарий (опционально)"></textarea>
+      <input type="hidden" name="_redirect" value="https://t.me/pvzcomplect">
+      <button type="submit" class="button">Оставить заявку</button>
+    </form>
   </section>
 
   <section>
     <h2 class="section-title">Контакты</h2>
     <div class="contacts">
-      <div class="contact-block">
-        <div class="highlight">Телефон</div>
-        <p><a href="tel:+79016719352">+7 901 671 93 52</a></p>
-      </div>
-      <div class="contact-block">
-        <div class="highlight">Telegram</div>
-        <p><a href="https://t.me/pvzcomplect">@pvzcomplect</a></p>
-      </div>
-      <div class="contact-block">
-        <div class="highlight">WhatsApp</div>
-        <p><a href="https://wa.me/79016719352">Написать</a></p>
-      </div>
-      <div class="contact-block">
-        <div class="highlight">Email</div>
-        <p>pvzcomplect@gmail.com</p>
-      </div>
+      <div class="contact-block"><div class="highlight">Телефон</div><p><a href="tel:+79016719352">+7 901 671 93 52</a></p></div>
+      <div class="contact-block"><div class="highlight">Telegram</div><p><a href="https://t.me/pvzcomplect">@pvzcomplect</a></p></div>
+      <div class="contact-block"><div class="highlight">WhatsApp</div><p><a href="https://wa.me/79016719352">Написать</a></p></div>
+      <div class="contact-block"><div class="highlight">Email</div><p>pvzcomplect@gmail.com</p></div>
     </div>
   </section>
 
